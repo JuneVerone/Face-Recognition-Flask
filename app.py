@@ -12,7 +12,7 @@ import joblib
 
 app = Flask(__name__)
 
-nimgs = 7
+nimgs = 5
 
 imgBackground=cv2.imread("background.png")
 
