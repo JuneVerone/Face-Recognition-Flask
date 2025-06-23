@@ -8,6 +8,8 @@ from sklearn.neighbors import KNeighborsClassifier
 import pandas as pd
 import joblib
 
+# This is the main file for the Flask application that handles attendance using face recognition.
+
 app = Flask(__name__)
 
 nimgs = 7
